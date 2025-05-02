@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Descargar código desde GitHub') {
             steps {
-                git url: 'https://github.com/tu_usuario/HolaMundoJenkins.git', branch: 'main'
+                git url: 'https://github.com/kazador323/HolaMundoJenkins.git', branch: 'main'
             }
         }
 
